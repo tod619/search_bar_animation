@@ -40,3 +40,15 @@ html {
     color: #999;
     cursor: pointer;
 }
+
+.search-icon {
+    font-size: 1.5rem;
+    position: absolute;
+    top: 1.7rem;
+    right: calc(50% + 16rem);
+}
+
+.search-icon i {
+    color: #999;
+    cursor: pointer;
+}
