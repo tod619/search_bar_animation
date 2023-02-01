@@ -17,6 +17,13 @@ html {
     justify-content: center;
     opacity: 0;
     visibility: hidden;
+    transition: all 0.5s;
+}
+
+.search-input-wrapper.change {
+    opacity: 1;
+    visibility: visible;
+    transition: all 0.5s 1s;
 }
 
 .search-input {
@@ -48,6 +55,9 @@ html {
     position: absolute;
     top: 1.7rem;
     right: 3rem;
+}
+
+.search-icon.change {
     animation: searchIconAnim 1s forwards;
 }
 
